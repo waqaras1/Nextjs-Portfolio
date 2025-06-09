@@ -1,22 +1,22 @@
 "use client"; // Make sure this runs client-side
 
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BiMapPin, BiPhone } from "react-icons/bi";
 import { BsArrowLeft } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
 
-const page = () => {
+const ContactPage = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
   const [responseMsg, setResponseMsg] = useState("");
 
-  const handleChange = (e: { target: { id: any; value: any; }; }) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.id]: e.target.value });
   };
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     setResponseMsg("");
@@ -33,7 +33,7 @@ const page = () => {
       if (data.success) {
         setForm({ name: "", email: "", message: "" });
       }
-    } catch (err) {
+    } catch {
       setResponseMsg("Something went wrong. Please try again.");
     }
 
@@ -55,7 +55,7 @@ const page = () => {
           </h1>
 
           <p className="text-pretty text-neutral-200 tracking-tight">
-            I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions. Feel free to reach out through any of the following channels.
+            I&apos;m always open to discussing new projects, creative ideas or opportunities to be part of your visions. Feel free to reach out through any of the following channels.
           </p>
 
           <div className="space-y-4">
@@ -141,4 +141,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactPage;
