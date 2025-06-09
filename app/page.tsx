@@ -6,18 +6,14 @@ import {
   BiChevronRight,
   BiLogoGithub,
   BiLogoInstagram,
-  BiLogoTiktok,
-  BiLogoYoutube,
 } from "react-icons/bi";
 import { HiArrowDown } from "react-icons/hi";
-import { GoHistory } from "react-icons/go";
-import { Ghost, Link as LucideLink } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <main className="w-full max-w-xl m-3 md:m-8 z-50 space-y-8 border border-gray-700/50 rounded-xl p-5 sm:p-10 backdrop-blur-xl bg-black/80">
-        {/* Header section */}
+        {/* Header */}
         <div className="flex sm:flex-row sm:justify-between sm:items-center flex-col-reverse items-start gap-3 sm:gap-10">
           <div className="flex items-center gap-3">
             <BiBuilding className="w-5 h-5" />
@@ -35,17 +31,19 @@ export default function Home() {
           </Button>
         </div>
 
-        {/* Intro section */}
+        {/* Intro */}
         <div>
           <h1 className="text-4xl">Waqar Ahmed</h1>
           <h3 className="text-xl font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500">
             Full Stack Web Developer
           </h3>
-          <p className="text-pretty tracking-tight mt-3 text-neutral-300 ">
-           Hi, I’m Waqar — a Computer Science undergrad, MERN Stack developer, and freelancer.
-I specialize in building modern, responsive web applications with a strong focus on performance, clean design, and user experience. Currently exploring AI-powered solutions and always open to exciting collaborations. <br></br>
-
-{" "}
+          <p className="text-pretty tracking-tight mt-3 text-neutral-300">
+            Hi, I’m Waqar — a Computer Science undergrad, MERN Stack developer,
+            and freelancer. I specialize in building modern, responsive web
+            applications with a strong focus on performance, clean design, and
+            user experience. Currently exploring AI-powered solutions and always
+            open to exciting collaborations.
+            <br />
             <Link
               href="/contact"
               className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 font-bold opacity-90 hover:opacity-100 transition-opacity"
@@ -56,7 +54,7 @@ I specialize in building modern, responsive web applications with a strong focus
           </p>
         </div>
 
-        {/* Menu navigation */}
+        {/* Menu */}
         <nav className="space-y-4">
           <h3 className="text-xl font-bold text-emerald-400">Menu</h3>
           <div className="flex flex-col gap-3">
@@ -76,50 +74,50 @@ I specialize in building modern, responsive web applications with a strong focus
               </Link>
             ))}
           </div>
-          <div className="flex gap-2 items-center ">
-            <h3 className="text-xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-blue-400 ">
+
+          <div className="flex gap-2 items-center">
+            <h3 className="text-xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-blue-400">
               Check out my Socials
             </h3>
-            <HiArrowDown className="text-2xl text-sky-400"></HiArrowDown>
+            <HiArrowDown className="text-2xl text-sky-400" />
           </div>
-        <div className="flex flex-col gap-3 ">
-  <a
-    href="https://github.com/waqaras1"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-full"
-  >
-    <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-70/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
-      <BiLogoGithub />
-      Github
-    </Button>
-  </a>
-  
-  <a
-    href="https://linkedin.com/in/waqaras/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-full"
-  >
-    <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-70/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
-      <BiLogoLinkedin />
-      Linkedin
-    </Button>
-  </a>
-  
-  <a
-    href="https://instagram.com/waqarr.as"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-full"
-  >
-    <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-70/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
-      <BiLogoInstagram />
-      Instagram
-    </Button>
-  </a>
-</div>
 
+          {/* Social Buttons */}
+          <div className="flex flex-col gap-3">
+            <a
+              href="https://github.com/waqaras1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
+                <BiLogoGithub />
+                Github
+              </Button>
+            </a>
+            <a
+              href="https://linkedin.com/in/waqaras/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
+                <BiLogoLinkedin />
+                Linkedin
+              </Button>
+            </a>
+            <a
+              href="https://instagram.com/waqarr.as"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              <Button className="bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear flex items-center justify-center gap-2">
+                <BiLogoInstagram />
+                Instagram
+              </Button>
+            </a>
+          </div>
         </nav>
       </main>
     </div>
