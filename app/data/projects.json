@@ -2,39 +2,39 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Platform",
-      "description": "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
+      "title": "Modern 3D Portfolio",
+      "description": "A modern 3D portfolio website with a clean and responsive design.",
       "image": "/1.png",
-      "tags": ["Next.js", "TypeScript", "Stripe", "Prisma"],
-      "github": "https://github.com/waqaras1/ecommerce-platform",
-      "liveDemo": "https://ecommerce-platform.example.com"
+      "tags": ["Next.js", "TypeScript", "Three.js", "TailwindCSS"],
+      "github": "https://github.com/waqaras1/modern3d-portfolio",
+      "liveDemo": "https://waqaras-3dportfolio.vercel.app/"
     },
     {
       "id": 2,
-      "title": "Social Media Dashboard",
-      "description": "Analytics dashboard for social media management with real-time data visualization.",
+      "title": "Brainwave Chat",
+      "description": "A real-time chat application with AI integration for automated responses and content moderation.",
       "image": "/2.png",
-      "tags": ["React", "D3.js", "Node.js", "MongoDB"],
-      "github": "https://github.com/waqaras1/social-media-dashboard",
-      "liveDemo": "https://social-media-dashboard.example.com"
+      "tags": ["React", "TailwindCSS", "react-just-parralax"],
+      "github": "https://github.com/waqaras1/brainwave",
+      "liveDemo": "brainwave-chat.vercel.app"
     },
     {
       "id": 3,
-      "title": "AI-Powered Chat Application",
-      "description": "Real-time chat application with AI integration for automated responses and content moderation.",
+      "title": "PngFy Pro - Ai Powered Background Removal",
+      "description": "A professional-grade background removal application built with modern web technologies.",
       "image": "/3.png",
-      "tags": ["Next.js", "OpenAI", "WebSocket", "Tailwind"],
-      "github": "https://github.com/waqaras1/ai-chat-app",
-      "liveDemo": "https://ai-chat-app.example.com"
+      "tags": ["Nodejs", "Express", "Remove.bg API", "SCSS"],
+      "github": "https://github.com/waqaras1/pngfy",
+      "liveDemo": "https://pngfypro.onrender.com"
     },
     {
       "id": 4,
-      "title": "Portfolio Website",
-      "description": "Modern portfolio website with dynamic content management and responsive design.",
+      "title": "🌍 HiLink – Travel Web App",
+      "description": "A sleek, modern and responsive travel website built using Next.js and Tailwind CSS",
       "image": "/4.png",
-      "tags": ["Next.js", "Tailwind", "Framer Motion", "Sanity"],
-      "github": "https://github.com/waqaras1/portfolio-website",
-      "liveDemo": "https://waqaras.dev"
+      "tags": ["Next.js", "Typescript", "TailwindCSS"],
+      "github": "https://github.com/waqaras1/Hilink-Travel-Web-App",
+      "liveDemo": "hilink-travel-web-app.vercel.app"
     }
   ]
 }
