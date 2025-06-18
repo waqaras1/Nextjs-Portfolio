@@ -16,7 +16,7 @@
       "image": "/2.png",
       "tags": ["React", "TailwindCSS", "react-just-parralax"],
       "github": "https://github.com/waqaras1/brainwave",
-      "liveDemo": "brainwave-chat.vercel.app"
+      "liveDemo": "https://brainwave-chat.vercel.app"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "image": "/4.png",
       "tags": ["Next.js", "Typescript", "TailwindCSS"],
       "github": "https://github.com/waqaras1/Hilink-Travel-Web-App",
-      "liveDemo": "hilink-travel-web-app.vercel.app"
+      "liveDemo": "https://hilink-travel-web-app.vercel.app"
     }
   ]
 }
