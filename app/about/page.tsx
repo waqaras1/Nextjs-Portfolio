@@ -36,16 +36,17 @@ const page = () => {
             </h2>
             <div className="space-y-4">
               <div>
-                <p className="font-medium">Founder & Lead Developer</p>
+                <p className="font-medium">Freelance Full Stack Developer</p>
                 <p className="text-neutral-400">
-                  Freelance Agency on Fiverr - Remote, 2023 - Present <br />
-                  - Founded and run a multi-service freelance agency on Fiverr, providing web development, e-commerce, AI chatbot, and graphic design solutions. <br />
-                  - Handle projects end-to-end, ensuring timely delivery and high client satisfaction.
+                  Fiverr - Remote, 2023 - Present <br />- Designed and deployed multiple websites, integrating custom AI chatbots to enhance user interaction. <br />
+- Managed projects from concept to completion, ensuring on-time delivery and exceeding client expectations.
                 </p>
               </div>
               <div>
                 <p className="font-medium">Web Development Intern</p>
-                <p className="text-neutral-500">CodeClause - Remote, 2023</p>
+                <p className="text-neutral-500">CodeClause - Remote, 2023 <br />- Developed and deployed multiple frontend web projects using React, JavaScript, HTML, and CSS. <br />  
+- Integrated third-party APIs to enhance functionality and improve user experience. <br />
+- Designed responsive and user-friendly interfaces, ensuring optimal performance across devices.</p>
               </div>
             </div>
           </div>

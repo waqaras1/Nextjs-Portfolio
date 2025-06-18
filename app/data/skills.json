@@ -22,8 +22,8 @@
       "name": "Tools & Others",
       "skills": [
         { "name": "Git & GitHub", "level": 90 },
-        { "name": "Docker", "level": 80 },
-        { "name": "AWS", "level": 75 },
+        { "name": "Vercel/Render", "level": 80 },
+        { "name": "Firebase", "level": 75 },
         { "name": "CI/CD", "level": 85 }
       ]
     }

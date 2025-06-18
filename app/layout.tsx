@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Waqar Ahmed - Full Stack Web Developer",
-  description: "Portfolio website of Waqar Ahmed, a Full Stack Web Developer",
+  description: "Portfolio website of Waqar Ahmed, Full Stack Web Developer",
 };
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
