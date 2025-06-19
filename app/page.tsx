@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex sm:flex-row sm:justify-between sm:items-center flex-col-reverse items-start gap-3 sm:gap-10">
           <div className="flex items-center gap-3">
             <BiBuilding className="w-5 h-5" />
-            <h3 className="text-gray-400">Karachi, Pakistan</h3>
+            <h3 className="text-gray-400">Islamabad, Pakistan</h3>
           </div>
           <Button
             variant="ghost"
