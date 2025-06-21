@@ -111,11 +111,11 @@ export default function Home() {
               asChild
               size="lg"
               variant="outline"
-              className="group border-emerald-500/30 bg-emerald-500/10 text-gray-300 hover:bg-emerald-500/20 hover:border-emerald-500/50 hover:text-white transition-all"
+              className="w-full group border-emerald-500/30 bg-emerald-500/10 text-gray-300 hover:bg-emerald-500/20 hover:border-emerald-500/50 hover:text-white transition-all"
             >
-              <Link href="/contact" className="inline-flex items-center gap-2">
+              <Link href="/contact" className="inline-flex items-center justify-center gap-2">
                 <BiEnvelope className="h-5 w-5 text-emerald-400 transition-transform duration-300 group-hover:scale-110" />
-                <span>Get in Touch</span>
+                <span>Have a project in mind? Let's talk!</span>
               </Link>
             </Button>
           </div>
