@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Waqar Ahmed - Full Stack Web Developer",
-  description: "Portfolio website of Waqar Ahmed, a passionate Full Stack Web Developer specializing in React, Next.js, Node.js, and modern web technologies. View my projects, skills, and get in touch for collaborations.",
-  keywords: ["Full Stack Developer", "React", "Next.js", "Node.js", "TypeScript", "Web Development", "Portfolio"],
+  title: "Waqar Ahmed - Full Stack Developer",
+  description: "The professional portfolio of Waqar Ahmed, a passionate Full Stack Developer specializing in modern web technologies like React, Next.js, and Node.js.",
+  keywords: ["Waqar Ahmed", "Full Stack Developer", "Next.js", "React", "Portfolio", "Web Developer"],
   authors: [{ name: "Waqar Ahmed" }],
   creator: "Waqar Ahmed",
   publisher: "Waqar Ahmed",
