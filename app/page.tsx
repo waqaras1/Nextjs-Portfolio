@@ -99,14 +99,14 @@ export default function Home() {
             </h2>
           </div>
           
-          <div className="space-y-4 text-gray-300 leading-relaxed">
-            <p>
+          <Card variant="glass" className="p-6">
+            <p className="text-pretty tracking-tight text-gray-300 leading-relaxed">
               Hi, I&apos;m Waqar — a Computer Science undergrad, MERN Stack developer, and freelancer. 
               I specialize in building modern, responsive web applications with a strong focus on 
               performance, clean design, and user experience. Currently exploring AI-powered solutions 
               and always open to exciting collaborations.
             </p>
-          </div>
+          </Card>
           
           <div className="pt-4">
             <Button
