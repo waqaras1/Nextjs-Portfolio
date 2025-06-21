@@ -76,7 +76,7 @@ const PageView = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <Card className="w-full max-w-4xl space-y-8 p-6 sm:p-10">
-        <Navigation title="My Skills" />
+        <Navigation title="My Skills" showBack={true} />
         
         <div className="text-center space-y-4">
           <h1 className="text-4xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-sky-300">
@@ -105,7 +105,7 @@ const PageView = () => {
                     return (
                       <MotionDiv key={tech.name} delay={categoryIndex * 0.15 + techIndex * 0.05}>
                         <div className="flex flex-col items-center gap-2 text-center p-2 rounded-lg hover:bg-black/20 transition-colors">
-                          <div className="text-4xl text-gray-300 hover:text-emerald-400 transition-colors">
+                          <div className={`text-4xl transition-colors ${tech.color || 'text-gray-300'}`}>
                             {IconComponent ? <IconComponent /> : <div className="w-10 h-10 bg-gray-600 rounded"></div>}
                           </div>
                           <p className="font-medium text-white">{tech.name}</p>

@@ -70,7 +70,7 @@ const PageView = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <Card className="w-full max-w-4xl space-y-8 p-6 sm:p-10">
-        <Navigation title="About Me" />
+        <Navigation title="About Me" showBack={true} />
         
         <div className="text-center space-y-4">
           <h1 className="text-4xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500">

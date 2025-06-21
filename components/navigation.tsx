@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { BsArrowLeft } from "react-icons/bs";
+import { BiHome } from "react-icons/bi";
 
 interface NavigationProps {
   showBack?: boolean;
@@ -28,8 +28,8 @@ export function Navigation({ showBack = false, title }: NavigationProps) {
               className="hover:bg-black/50 hover:text-white rounded-full duration-300 transition-all"
               aria-label="Go back to home"
             >
-              <BsArrowLeft className="mr-2 h-4 w-4" />
-              Back
+              <BiHome className="mr-2 h-4 w-4" />
+              Back to Menu
             </Button>
           </Link>
         )}
