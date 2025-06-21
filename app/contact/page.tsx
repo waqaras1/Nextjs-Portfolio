@@ -79,7 +79,7 @@ const ContactPage = () => {
               <BiMapPin className="w-5 h-5 text-emerald-400" />
               <div>
                 <h3 className="font-medium">Location</h3>
-                <p className="text-neutral-500">Karachi, Sindh, Pakistan</p>
+                <p className="text-neutral-500">Islamabad, Pakistan</p>
               </div>
             </div>
           </div>
