@@ -27,6 +27,7 @@ import {
   SiFirebase,
   SiGitlab
 } from "react-icons/si";
+import { IconType } from "react-icons";
 
 const PageView = () => {
   const { skills } = skillsData;
@@ -37,7 +38,7 @@ const PageView = () => {
   }, []);
 
   // Icon mapping
-  const iconMap: { [key: string]: React.ComponentType<any> } = {
+  const iconMap: { [key: string]: IconType } = {
     react: SiReact,
     nextjs: SiNextdotjs,
     typescript: SiTypescript,

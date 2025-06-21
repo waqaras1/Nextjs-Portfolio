@@ -63,7 +63,7 @@ const PageView = () => {
         setResponseType("error");
       }
       setResponseMsg(data.message);
-    } catch (error) {
+    } catch (_error) {
       setResponseType("error");
       setResponseMsg("Something went wrong. Please try again.");
     }
