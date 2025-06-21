@@ -117,7 +117,7 @@ export default function Home() {
             >
               <Link href="/contact" className="inline-flex items-center justify-center gap-2">
                 <BiEnvelope className="h-5 w-5 text-emerald-400 transition-transform duration-300 group-hover:scale-110" />
-                <span>Have a project in mind? Let's talk!</span>
+                <span>Have a project in mind? Let&apos;s talk!</span>
               </Link>
             </Button>
           </div>
