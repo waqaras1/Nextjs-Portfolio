@@ -10,19 +10,13 @@ interface NavigationProps {
   title?: string;
 }
 
-export function Navigation({ showBack = true, title }: NavigationProps) {
+export function Navigation({ showBack = false, title }: NavigationProps) {
   const pathname = usePathname();
   
-  const getBreadcrumbs = () => {
-    const paths = pathname.split('/').filter(Boolean);
-    return paths.map((path, index) => ({
-      name: path.charAt(0).toUpperCase() + path.slice(1),
-      href: '/' + paths.slice(0, index + 1).join('/'),
-      current: index === paths.length - 1
-    }));
-  };
-
-  const breadcrumbs = getBreadcrumbs();
+  // For one-page portfolio, we don't need breadcrumbs
+  if (pathname === '/') {
+    return null;
+  }
 
   return (
     <div className="flex items-center justify-between mb-6">
@@ -46,28 +40,6 @@ export function Navigation({ showBack = true, title }: NavigationProps) {
           </h1>
         )}
       </div>
-
-      {breadcrumbs.length > 1 && (
-        <nav className="hidden sm:flex items-center space-x-2 text-sm text-gray-400">
-          {breadcrumbs.map((breadcrumb, index) => (
-            <div key={breadcrumb.href} className="flex items-center">
-              {index > 0 && <span className="mx-2">/</span>}
-              {breadcrumb.current ? (
-                <span className="text-emerald-400 font-medium">
-                  {breadcrumb.name}
-                </span>
-              ) : (
-                <Link
-                  href={breadcrumb.href}
-                  className="hover:text-emerald-400 transition-colors"
-                >
-                  {breadcrumb.name}
-                </Link>
-              )}
-            </div>
-          ))}
-        </nav>
-      )}
     </div>
   );
 } 
