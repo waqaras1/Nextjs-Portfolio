@@ -9,6 +9,7 @@ import {
   BiChevronRight,
   BiLogoGithub,
   BiLogoInstagram,
+  BiEnvelope,
 } from "react-icons/bi";
 import { HiArrowDown } from "react-icons/hi";
 import { useEffect, useState } from "react";
@@ -105,14 +106,18 @@ export default function Home() {
             and always open to exciting collaborations.
           </p>
           
-          <div className="flex items-center gap-2 text-sm">
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-1 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 font-semibold opacity-90 hover:opacity-100 transition-opacity"
+          <div className="pt-4">
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="group border-emerald-500/30 bg-emerald-500/10 text-gray-300 hover:bg-emerald-500/20 hover:border-emerald-500/50 hover:text-white transition-all"
             >
-              Contact Me
-            </Link>
-            <span className="text-gray-500">for freelance work anytime</span>
+              <Link href="/contact" className="inline-flex items-center gap-2">
+                <BiEnvelope className="h-5 w-5 text-emerald-400 transition-transform duration-300 group-hover:scale-110" />
+                <span>Get in Touch</span>
+              </Link>
+            </Button>
           </div>
         </div>
 
