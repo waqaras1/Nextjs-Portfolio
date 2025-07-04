@@ -45,6 +45,18 @@ export default function RootLayout({
         <link rel="preload" href="/bgvid.mp4" as="video" type="video/mp4" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "s9slmzu950");
+            `,
+          }}
+        />
       </head>
       <body className={`${inter.className} antialiased bg-black text-white overflow-x-hidden`}>
         <div className="fixed inset-0 w-full h-full z-10">
