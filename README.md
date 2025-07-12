@@ -73,12 +73,19 @@ A modern, high-performance portfolio website built with Next.js, TypeScript, and
    npm install
    ```
 
-3. **Run the development server**
+3. **Set up environment variables (optional)**
+   ```bash
+   # Create .env.local file for email functionality
+   cp .env.example .env.local
+   # Edit .env.local with your Gmail credentials
+   ```
+
+4. **Run the development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
+5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Build for Production
@@ -182,11 +189,22 @@ npm start
 
 ## 🔧 Configuration
 
+### **Environment Variables**
+Create a `.env.local` file in the root directory with the following variables for email functionality:
+
+```bash
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+```
+
+**Note**: For Gmail, you need to use an App Password, not your regular password. Generate one at: https://myaccount.google.com/apppasswords
+
 ### **Next.js Config**
 - Image optimization settings
 - Security headers
 - Performance optimizations
 - Compression enabled
+- Turbopack compatibility
 
 ### **Tailwind CSS**
 - Custom color palette

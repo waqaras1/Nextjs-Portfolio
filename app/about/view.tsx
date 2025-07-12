@@ -19,6 +19,19 @@ const PageView = () => {
 
   const experiences = [
     {
+      title: "MERN Stack Developer",
+      company: "Aykays",
+      period: "June 2025 - Present",
+      location: "Karachi, Pakistan",
+      description: [
+        "Developing and maintaining full-stack web applications using MongoDB, Express.js, React.js, and Node.js",
+        "Collaborating with cross-functional teams to deliver high-quality software solutions",
+        "Implementing responsive designs and ensuring optimal performance across all devices",
+        "Working on scalable architecture and best practices for modern web development"
+      ],
+      skills: ["MERN Stack", "React", "Node.js", "MongoDB", "Express.js", "JavaScript"]
+    },
+    {
       title: "Freelance Full Stack Developer",
       company: "Fiverr",
       period: "2023 - Present",
@@ -84,11 +97,11 @@ const PageView = () => {
             <h2 className="text-2xl font-bold text-white">Who I Am</h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I&apos;m Waqar Ahmed — a Computer Science undergraduate and Full Stack Web Developer with a focus on the MERN Stack. 
+                I&apos;m Waqar Ahmed — a Computer Science undergraduate and MERN Stack Developer based in Karachi, Pakistan. 
                 I enjoy building fast, scalable web applications that prioritize clean code, modern design, and great user experience.
               </p>
               <p>
-                Currently exploring AI-powered tools and always open to freelance opportunities and exciting collaborations. 
+                Currently working as a MERN Stack Developer at Aykays, where I contribute to developing robust full-stack applications. 
                 I believe in continuous learning and staying up-to-date with the latest technologies and best practices in web development.
               </p>
             </div>

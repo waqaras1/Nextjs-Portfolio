@@ -71,7 +71,7 @@ export default function Home() {
             <div className="p-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 group-hover:bg-emerald-500/30 transition-colors">
               <BiBuilding className="w-4 h-4 text-emerald-400" />
             </div>
-            <span className="text-gray-400 text-sm font-medium">Islamabad, Pakistan</span>
+            <span className="text-gray-400 text-sm font-medium">Karachi, Pakistan</span>
           </div>
           
           <Button
@@ -95,16 +95,16 @@ export default function Home() {
               Waqar Ahmed
             </h1>
             <h2 className="text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500">
-              Full Stack Web Developer
+              MERN Stack Developer
             </h2>
           </div>
           
           <Card variant="glass" className="p-6">
             <p className="text-pretty tracking-tight text-gray-300 leading-relaxed">
-              Hi, I&apos;m Waqar — a Computer Science undergrad, MERN Stack developer, and freelancer. 
+              Hi, I&apos;m Waqar — a Computer Science undergrad and MERN Stack Developer at Aykays. 
               I specialize in building modern, responsive web applications with a strong focus on 
-              performance, clean design, and user experience. Currently exploring AI-powered solutions 
-              and always open to exciting collaborations.
+              performance, clean design, and user experience. Based in Karachi, Pakistan, I&apos;m passionate 
+              about creating scalable solutions and always open to exciting collaborations.
             </p>
           </Card>
           
