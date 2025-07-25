@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Modern 3D Portfolio",
+      "description": "A modern 3D portfolio website with a clean and responsive design.",
+      "image": "/1.png",
+      "tags": ["Next.js", "TypeScript", "Three.js", "TailwindCSS"],
+      "github": "https://github.com/waqaras1/modern3d-portfolio",
+      "liveDemo": "https://waqaras-3dportfolio.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Chatrio - AI Chatbot Platform",
+      "description": "No-code SaaS platform that enables users to create AI-powered chatbots by crawling website URLs. Features advanced web crawling, document processing, and embeddable widgets with enterprise-grade security.",
+      "image": "/2.png",
+      "tags": ["Next.js 14", "TypeScript", "Prisma", "OpenRouter", "ChromaDB"],
+      "github": "https://github.com/waqaras1/chatrio",
+      "liveDemo": "https://chatrio.vercel.app"
+    },
+    {
+      "id": 3,
+      "title": "PngFy Pro - Ai Powered Background Removal",
+      "description": "A professional-grade background removal application built with modern web technologies.",
+      "image": "/3.png",
+      "tags": ["Nodejs", "Express", "Remove.bg API", "SCSS"],
+      "github": "https://github.com/waqaras1/pngfy",
+      "liveDemo": "https://pngfypro.onrender.com"
+    },
+    {
+      "id": 4,
+      "title": "🌍 HiLink – Travel Web App",
+      "description": "A sleek, modern and responsive travel website built using Next.js and Tailwind CSS",
+      "image": "/4.png",
+      "tags": ["Next.js", "Typescript", "TailwindCSS"],
+      "github": "https://github.com/waqaras1/Hilink-Travel-Web-App",
+      "liveDemo": "https://hilink-travel-web-app.vercel.app"
+    }
+  ]
+}

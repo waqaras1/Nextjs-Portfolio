@@ -1,0 +1,35 @@
+{
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "technologies": [
+        { "name": "React", "icon": "react", "level": "Advanced", "color": "text-sky-400" },
+        { "name": "Next.js", "icon": "nextjs", "level": "Advanced", "color": "text-white" },
+        { "name": "TypeScript", "icon": "typescript", "level": "Intermediate", "color": "text-blue-500" },
+        { "name": "Tailwind CSS", "icon": "tailwind", "level": "Advanced", "color": "text-teal-400" },
+        { "name": "JavaScript", "icon": "javascript", "level": "Advanced", "color": "text-yellow-400" },
+        { "name": "HTML5", "icon": "html5", "level": "Expert", "color": "text-orange-500" },
+        { "name": "CSS3", "icon": "css3", "level": "Expert", "color": "text-blue-600" }
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "technologies": [
+        { "name": "Node.js", "icon": "nodejs", "level": "Advanced", "color": "text-green-500" },
+        { "name": "Express.js", "icon": "express", "level": "Intermediate", "color": "text-gray-400" },
+        { "name": "MongoDB", "icon": "mongodb", "level": "Intermediate", "color": "text-green-600" },
+        { "name": "PostgreSQL", "icon": "postgresql", "level": "Beginner", "color": "text-sky-600" }
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "technologies": [
+        { "name": "Git & GitHub", "icon": "github", "level": "Advanced", "color": "text-white" },
+        { "name": "Vercel", "icon": "vercel", "level": "Advanced", "color": "text-white" },
+        { "name": "Docker", "icon": "docker", "level": "Beginner", "color": "text-blue-500" },
+        { "name": "Firebase", "icon": "firebase", "level": "Intermediate", "color": "text-yellow-500" },
+        { "name": "CI/CD", "icon": "cicd", "level": "Intermediate", "color": "text-orange-500" }
+      ]
+    }
+  ]
+}
