@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Modern 3D Portfolio",
+      "description": "A modern 3D portfolio website built with Next.js, TypeScript, and Three.js. Features interactive 3D elements, smooth animations, and responsive design. Showcases full-stack capabilities with modern frontend technologies and optimized performance.",
+      "image": "/1.png",
+      "tags": ["Next.js", "TypeScript", "Three.js", "TailwindCSS", "3D Graphics", "Frontend"],
+      "github": "https://github.com/waqaras1/modern3d-portfolio",
+      "liveDemo": "https://waqaras-3dportfolio.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Chatrio - AI Chatbot Platform",
+      "description": "A comprehensive full-stack SaaS platform that enables users to create AI-powered chatbots by crawling website URLs. Features advanced web crawling, document processing, embeddable widgets, and enterprise-grade security. Built with modern full-stack technologies including Next.js 14, TypeScript, Prisma, and ChromaDB.",
+      "image": "/2.png",
+      "tags": ["Next.js 14", "TypeScript", "Prisma", "OpenRouter", "ChromaDB", "Full-Stack", "AI/ML"],
+      "github": "https://github.com/waqaras1/chatrio",
+      "liveDemo": "https://chatrio.vercel.app"
+    },
+    {
+      "id": 3,
+      "title": "PngFy Pro - AI Powered Background Removal",
+      "description": "A professional-grade background removal application with a modern frontend interface and robust backend API. Features real-time image processing, user authentication, and cloud storage integration. Demonstrates full-stack development with Node.js, Express.js, and modern frontend technologies.",
+      "image": "/3.png",
+      "tags": ["Node.js", "Express.js", "Remove.bg API", "SCSS", "Full-Stack", "Image Processing"],
+      "github": "https://github.com/waqaras1/pngfy",
+      "liveDemo": "https://pngfypro.onrender.com"
+    },
+    {
+      "id": 4,
+      "title": "🌍 HiLink – Travel Web App",
+      "description": "A sleek, modern, and responsive travel website built using Next.js and TypeScript. Features interactive maps, booking functionality, and a beautiful user interface. Showcases frontend expertise with modern design patterns and responsive development.",
+      "image": "/4.png",
+      "tags": ["Next.js", "TypeScript", "TailwindCSS", "Frontend", "UI/UX", "Responsive Design"],
+      "github": "https://github.com/waqaras1/Hilink-Travel-Web-App",
+      "liveDemo": "https://hilink-travel-web-app.vercel.app"
+    }
+  ]
+}

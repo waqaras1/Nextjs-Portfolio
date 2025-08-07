@@ -1,0 +1,16 @@
+{
+  "name": "Waqar Ahmed - Full-Stack Software Engineer",
+  "short_name": "Waqar Ahmed",
+  "description": "Professional portfolio of Waqar Ahmed, a Full-Stack Software Engineer at Aykays based in Karachi, Pakistan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
