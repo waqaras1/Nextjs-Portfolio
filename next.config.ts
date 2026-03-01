@@ -28,8 +28,8 @@ const nextConfig = {
     // Enable PPR for better performance
     ppr: false,
   },
-  // Turbopack compatible configuration
-  webpack: undefined, // Disable webpack config for Turbopack
+  // Turbopack configuration for Next.js 16
+  turbopack: {},
   // Performance and security headers
   headers: async () => {
     return [
