@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Building Multi-tenant SaaS: Architecture Patterns",
+      "excerpt": "Learn the key architectural patterns and best practices for building scalable multi-tenant SaaS applications with proper tenant isolation and security.",
+      "date": "2025-11-15",
+      "readTime": "8 min read",
+      "tags": ["SaaS", "Architecture", "System Design"],
+      "slug": "multi-tenant-saas-architecture",
+      "published": true
+    },
+    {
+      "id": 2,
+      "title": "Next.js 15: Performance Optimization Techniques",
+      "excerpt": "Explore advanced performance optimization techniques in Next.js 15, including server components, streaming, and edge runtime strategies.",
+      "date": "2025-10-28",
+      "readTime": "6 min read",
+      "tags": ["Next.js", "Performance", "React"],
+      "slug": "nextjs-15-performance",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "TypeScript Best Practices for Large-Scale Applications",
+      "excerpt": "Discover essential TypeScript patterns and practices that help maintain code quality and developer productivity in enterprise applications.",
+      "date": "2025-10-10",
+      "readTime": "10 min read",
+      "tags": ["TypeScript", "Best Practices", "Enterprise"],
+      "slug": "typescript-best-practices",
+      "published": true
+    }
+  ]
+}
