@@ -30,7 +30,7 @@ import {
   SiSemver,
   SiPrisma
 } from "react-icons/si";
-import { FaServer, FaDatabase, FaLayerGroup, FaProjectDiagram } from "react-icons/fa";
+import { FaDatabase, FaLayerGroup, FaProjectDiagram } from "react-icons/fa";
 import { IconType } from "react-icons";
 
 const PageView = () => {

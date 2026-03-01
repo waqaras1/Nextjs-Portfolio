@@ -14,7 +14,6 @@ const BiChevronRight = dynamic(() => import("react-icons/bi").then(mod => ({ def
 const BiLogoGithub = dynamic(() => import("react-icons/bi").then(mod => ({ default: mod.BiLogoGithub })), { ssr: false });
 const BiLogoInstagram = dynamic(() => import("react-icons/bi").then(mod => ({ default: mod.BiLogoInstagram })), { ssr: false });
 const BiEnvelope = dynamic(() => import("react-icons/bi").then(mod => ({ default: mod.BiEnvelope })), { ssr: false });
-const HiArrowDown = dynamic(() => import("react-icons/hi").then(mod => ({ default: mod.HiArrowDown })), { ssr: false });
 
 // Tech stack and service icons
 const SiReact = dynamic(() => import("react-icons/si").then(mod => ({ default: mod.SiReact })), { ssr: false });
