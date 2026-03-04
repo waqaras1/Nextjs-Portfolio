@@ -202,10 +202,7 @@ export default function Home() {
 
           {/* International Client Benefits */}
           <Card variant="glass" className="p-4 space-y-3">
-            <div className="flex items-center justify-between">
-              <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Why International Clients Choose Me</h3>
-              <ViewCounter />
-            </div>
+            <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Why International Clients Choose Me</h3>
             <div className="space-y-2 text-xs text-gray-300">
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-0.5">✓</span>
@@ -270,7 +267,7 @@ export default function Home() {
           {/* Welcome Card */}
           <Card className="p-6 sm:p-8 space-y-6 relative">
             {/* Availability Badge - Top Right */}
-            <div className="absolute top-6 right-6">
+            <div className="absolute top-6 right-6 flex flex-col items-end gap-2">
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 backdrop-blur-sm">
                 <div className="relative flex items-center justify-center h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
@@ -278,6 +275,7 @@ export default function Home() {
                 </div>
                 <span className="text-xs font-medium text-emerald-400">Open to Opportunities</span>
               </div>
+              <ViewCounter />
             </div>
 
             <div className="space-y-4 pr-32">
