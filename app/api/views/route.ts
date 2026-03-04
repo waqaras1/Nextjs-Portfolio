@@ -1,13 +1,24 @@
 import { NextResponse } from "next/server";
-
-// In-memory storage (for demo - use a database in production)
-let viewCount = 1247; // Starting count
+import { kv } from "@vercel/kv";
 
 export async function GET() {
-  return NextResponse.json({ views: viewCount });
+  try {
+    const views = await kv.get<number>("portfolio-views") || 1247;
+    return NextResponse.json({ views });
+  } catch (error) {
+    console.error("Error fetching views:", error);
+    // Fallback to default count if KV is not configured
+    return NextResponse.json({ views: 1247 });
+  }
 }
 
 export async function POST() {
-  viewCount += 1;
-  return NextResponse.json({ views: viewCount });
+  try {
+    const views = await kv.incr("portfolio-views");
+    return NextResponse.json({ views });
+  } catch (error) {
+    console.error("Error incrementing views:", error);
+    // Fallback to default count if KV is not configured
+    return NextResponse.json({ views: 1247 });
+  }
 }
