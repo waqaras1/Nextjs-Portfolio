@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import dynamic from 'next/dynamic';
 import { useEffect, useState, Suspense } from "react";
+import { CTASection } from "@/components/cta-section";
+import { ViewCounter } from "@/components/view-counter";
 
 // Lazy load icons to reduce initial bundle size
 const BiBuilding = dynamic(() => import("react-icons/bi").then(mod => ({ default: mod.BiBuilding })), { ssr: false });
@@ -200,7 +202,10 @@ export default function Home() {
 
           {/* International Client Benefits */}
           <Card variant="glass" className="p-4 space-y-3">
-            <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Why International Clients Choose Me</h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Why International Clients Choose Me</h3>
+              <ViewCounter />
+            </div>
             <div className="space-y-2 text-xs text-gray-300">
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-0.5">✓</span>
@@ -552,6 +557,9 @@ export default function Home() {
               </div>
             </div>
           </Card>
+
+          {/* Strong CTA Section */}
+          <CTASection />
         </div>
       </div>
     </div>

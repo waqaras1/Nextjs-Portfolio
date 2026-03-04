@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@/components/analytics";
 import "./globals.css";
 
 const inter = Inter({ 
@@ -197,6 +198,9 @@ export default function RootLayout({
         <div className="relative z-20">
           {children}
         </div>
+        
+        {/* Analytics */}
+        <Analytics />
         
         {/* Google Analytics */}
         <Script
