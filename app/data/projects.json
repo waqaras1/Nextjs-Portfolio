@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "OneUpAI Platform - AI-Powered Multi-Tenant SaaS",
+      "description": "A sophisticated multi-tenant SaaS platform that enables businesses to create AI-powered customer websites with integrated booking systems and billing. Features RAG-powered chat using OpenAI GPT-4o-mini with pgvector embeddings, Google Calendar integration, subscription management with Stripe Connect, visual page builder with industry templates, comprehensive analytics, and social media scheduling across multiple platforms. Built with Next.js 16, React 19, PostgreSQL 17, and Docker containerization.",
+      "image": "/oneupai.png",
+      "tags": ["Next.js 16", "React 19", "TypeScript", "PostgreSQL 17", "OpenAI GPT-4o", "Multi-tenant", "SaaS", "Stripe", "Docker", "AI/ML", "RAG"],
+      "github": "",
+      "liveDemo": "https://oneupai.com"
+    },
+    {
+      "id": 2,
+      "title": "OneUpAI Academy - AI-Powered Learning Platform",
+      "description": "Architected and developed OneUpAI Academy, an innovative AI-powered learning platform similar to Coursera. Features personalized learning paths, AI automation courses, industry certifications, and real-world projects. Built with multi-tenant architecture, advanced user management, and seamless course delivery system using Next.js 15, TypeScript, and modern full-stack technologies.",
+      "image": "/oneupai-academy.png",
+      "tags": ["AI-Powered", "EdTech", "Next.js 15", "TypeScript", "Multi-tenant", "SaaS", "PostgreSQL", "System Design"],
+      "github": "",
+      "liveDemo": "https://academy0.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "AI-Powered Document Q&A Tool",
+      "description": "A modern document Q&A application built with Next.js 16, featuring PDF upload, AI-powered answers using RAG (Retrieval-Augmented Generation), and a beautiful responsive UI. Features include multi-PDF upload with drag & drop, source attribution, conversation history, export chat functionality, split layout design, and OpenAI Whisper for speech-to-text and text-to-speech capabilities.",
+      "image": "/doc.png",
+      "tags": ["Next.js 16", "TypeScript", "OpenAI GPT-4", "RAG", "Tailwind CSS 4", "Framer Motion", "AI/ML", "Whisper API"],
+      "github": "",
+      "liveDemo": "https://doc.waqaras.dev"
+    },
+    {
+      "id": 4,
+      "title": "Certora - Production-Ready Internship Platform",
+      "description": "A comprehensive, scalable SaaS platform for managing internships, applications, and student progress tracking. Features include internship management system, streamlined application process with status tracking, comprehensive student portal dashboard, full administrative control panel, real-time messaging system, and detailed progress monitoring with reporting capabilities. Built with modern full-stack technologies for enterprise-grade performance.",
+      "image": "/certora.png",
+      "tags": ["SaaS", "Next.js", "TypeScript", "Real-time", "Admin Dashboard", "PostgreSQL", "Full-Stack"],
+      "github": "",
+      "liveDemo": ""
+    },
+    {
+      "id": 5,
+      "title": "RAGbot - AI Chatbot Builder Platform",
+      "description": "A comprehensive SaaS platform that transforms websites into intelligent AI chatbots in minutes, built with modern web technologies and advanced RAG (Retrieval Augmented Generation) capabilities. Features multi-LLM AI integration (OpenAI GPT-4, Groq, Ollama, Google Gemini, Anthropic Claude), hybrid search combining vector embeddings with full-text search, intelligent content processing, real-time widget preview, team collaboration, and comprehensive analytics with token usage tracking.",
+      "image": "/Botra.png",
+      "tags": ["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "OpenAI", "TailwindCSS", "Drizzle ORM", "WebSockets", "Docker", "AI/ML", "SaaS"],
+      "github": "",
+      "liveDemo": "https://botra.vercel.app"
+    },
+    {
+      "id": 6,
+      "title": "Modern 3D Portfolio",
+      "description": "A modern 3D portfolio website built with Next.js, TypeScript, and Three.js. Features interactive 3D elements, smooth animations, and responsive design. Showcases full-stack capabilities with modern frontend technologies and optimized performance.",
+      "image": "/1.png",
+      "tags": ["Next.js", "TypeScript", "Three.js", "TailwindCSS", "3D Graphics", "Frontend"],
+      "github": "https://github.com/waqaras1/modern3d-portfolio",
+      "liveDemo": "https://waqaras-3dportfolio.vercel.app/"
+    },
+    {
+      "id": 7,
+      "title": "Chatrio - AI Chatbot Platform",
+      "description": "A comprehensive full-stack SaaS platform that enables users to create AI-powered chatbots by crawling website URLs. Features advanced web crawling, document processing, embeddable widgets, and enterprise-grade security. Built with modern full-stack technologies including Next.js 14, TypeScript, Prisma, and ChromaDB.",
+      "image": "/2.png",
+      "tags": ["Next.js 14", "TypeScript", "Prisma", "OpenRouter", "ChromaDB", "Full-Stack", "AI/ML"],
+      "github": "https://github.com/waqaras1/chatrio",
+      "liveDemo": "https://chatrio.vercel.app"
+    },
+    {
+      "id": 8,
+      "title": "PngFy Pro - AI Powered Background Removal",
+      "description": "A professional-grade background removal application with a modern frontend interface and robust backend API. Features real-time image processing, user authentication, and cloud storage integration. Demonstrates full-stack development with Node.js, Express.js, and modern frontend technologies.",
+      "image": "/3.png",
+      "tags": ["Node.js", "Express.js", "Remove.bg API", "SCSS", "Full-Stack", "Image Processing"],
+      "github": "https://github.com/waqaras1/pngfy",
+      "liveDemo": "https://pngfypro.onrender.com"
+    },
+    {
+      "id": 9,
+      "title": "🌍 HiLink – Travel Web App",
+      "description": "A sleek, modern, and responsive travel website built using Next.js and TypeScript. Features interactive maps, booking functionality, and a beautiful user interface. Showcases frontend expertise with modern design patterns and responsive development.",
+      "image": "/4.png",
+      "tags": ["Next.js", "TypeScript", "TailwindCSS", "Frontend", "UI/UX", "Responsive Design"],
+      "github": "https://github.com/waqaras1/Hilink-Travel-Web-App",
+      "liveDemo": "https://hilink-travel-web-app.vercel.app"
+    }
+  ]
+}
