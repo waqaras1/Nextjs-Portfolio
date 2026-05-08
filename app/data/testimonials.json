@@ -1,0 +1,31 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Client Name",
+      "role": "CEO, Tech Company",
+      "image": "/testimonials/avatar1.png",
+      "content": "Waqar delivered an exceptional multi-tenant SaaS platform that exceeded our expectations. His expertise in system architecture and attention to detail made the entire process seamless.",
+      "rating": 5,
+      "project": "Multi-tenant Platform"
+    },
+    {
+      "id": 2,
+      "name": "Project Manager",
+      "role": "Product Lead, Startup",
+      "image": "/testimonials/avatar2.png",
+      "content": "Working with Waqar was a game-changer for our project. His full-stack expertise and problem-solving skills helped us launch on time with a robust, scalable solution.",
+      "rating": 5,
+      "project": "SaaS Application"
+    },
+    {
+      "id": 3,
+      "name": "Tech Lead",
+      "role": "Engineering Manager",
+      "image": "/testimonials/avatar3.png",
+      "content": "Waqar's deep understanding of modern web technologies and best practices made him an invaluable asset to our team. Highly recommended for complex projects.",
+      "rating": 5,
+      "project": "Enterprise Application"
+    }
+  ]
+}
