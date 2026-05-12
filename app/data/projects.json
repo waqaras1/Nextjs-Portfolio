@@ -36,17 +36,9 @@
       "github": "",
       "liveDemo": ""
     },
+
     {
       "id": 5,
-      "title": "RAGbot - AI Chatbot Builder Platform",
-      "description": "A comprehensive SaaS platform that transforms websites into intelligent AI chatbots in minutes, built with modern web technologies and advanced RAG (Retrieval Augmented Generation) capabilities. Features multi-LLM AI integration (OpenAI GPT-4, Groq, Ollama, Google Gemini, Anthropic Claude), hybrid search combining vector embeddings with full-text search, intelligent content processing, real-time widget preview, team collaboration, and comprehensive analytics with token usage tracking.",
-      "image": "/Botra.png",
-      "tags": ["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "OpenAI", "TailwindCSS", "Drizzle ORM", "WebSockets", "Docker", "AI/ML", "SaaS"],
-      "github": "",
-      "liveDemo": "https://botra.vercel.app"
-    },
-    {
-      "id": 6,
       "title": "Modern 3D Portfolio",
       "description": "A modern 3D portfolio website built with Next.js, TypeScript, and Three.js. Features interactive 3D elements, smooth animations, and responsive design. Showcases full-stack capabilities with modern frontend technologies and optimized performance.",
       "image": "/1.png",
@@ -55,7 +47,7 @@
       "liveDemo": "https://waqaras-3dportfolio.vercel.app/"
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Chatrio - AI Chatbot Platform",
       "description": "A comprehensive full-stack SaaS platform that enables users to create AI-powered chatbots by crawling website URLs. Features advanced web crawling, document processing, embeddable widgets, and enterprise-grade security. Built with modern full-stack technologies including Next.js 14, TypeScript, Prisma, and ChromaDB.",
       "image": "/2.png",
@@ -64,7 +56,7 @@
       "liveDemo": "https://chatrio.vercel.app"
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "PngFy Pro - AI Powered Background Removal",
       "description": "A professional-grade background removal application with a modern frontend interface and robust backend API. Features real-time image processing, user authentication, and cloud storage integration. Demonstrates full-stack development with Node.js, Express.js, and modern frontend technologies.",
       "image": "/3.png",
@@ -73,7 +65,7 @@
       "liveDemo": "https://pngfypro.onrender.com"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "🌍 HiLink – Travel Web App",
       "description": "A sleek, modern, and responsive travel website built using Next.js and TypeScript. Features interactive maps, booking functionality, and a beautiful user interface. Showcases frontend expertise with modern design patterns and responsive development.",
       "image": "/4.png",
