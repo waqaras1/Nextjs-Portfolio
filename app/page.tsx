@@ -321,88 +321,47 @@ export default function Home() {
             </div>
           </Card>
 
-          {/* Featured Projects */}
-          <Card className="p-6 sm:p-8 space-y-6 border-emerald-500/20">
+          {/* Featured Project */}
+          <Card className="p-6 sm:p-8 space-y-4 border-emerald-500/20">
             <div className="flex items-center justify-between">
-              <h3 className="text-xl font-bold text-white">Featured Projects</h3>
+              <h3 className="text-xl font-bold text-white">Featured Project</h3>
               <Link href="/work" className="text-sm text-emerald-400 hover:text-emerald-300 transition-colors">
                 View All →
               </Link>
             </div>
-            
-            <div className="grid lg:grid-cols-2 gap-6">
-              {/* OneUpAI Platform */}
-              <div className="space-y-4">
-                <div className="aspect-video rounded-lg overflow-hidden border border-gray-700/30">
-                  <Image
-                    src="/oneupai.png"
-                    alt="OneUpAI Platform - AI-Powered Multi-Tenant SaaS"
-                    width={800}
-                    height={450}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <div className="space-y-3">
-                  <h4 className="text-lg font-semibold text-white">OneUpAI Platform - Multi-Tenant SaaS</h4>
-                  <p className="text-sm text-gray-400 leading-relaxed">
-                    A sophisticated multi-tenant SaaS platform enabling businesses to create AI-powered customer websites with integrated booking systems, billing, and RAG-powered chat using OpenAI GPT-4o-mini.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {["Next.js 16", "React 19", "Multi-tenant", "PostgreSQL 17", "OpenAI GPT-4o", "Stripe"].map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-2 py-1 text-xs rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <a
-                    href="https://oneupai.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300 transition-colors"
-                  >
-                    Visit Live Site →
-                  </a>
-                </div>
+            <div className="space-y-4">
+              <div className="aspect-video rounded-lg overflow-hidden border border-gray-700/30">
+                <Image
+                  src="/oneupai.png"
+                  alt="OneUpAI Platform - AI-Powered Multi-Tenant SaaS"
+                  width={800}
+                  height={450}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
-
-              {/* RAGbot */}
-              <div className="space-y-4">
-                <div className="aspect-video rounded-lg overflow-hidden border border-gray-700/30">
-                  <Image
-                    src="/Botra.png"
-                    alt="RAGbot - AI Chatbot Builder Platform"
-                    width={800}
-                    height={450}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  />
+              <div className="space-y-3">
+                <h4 className="text-lg font-semibold text-white">OneUpAI Platform - AI-Powered Multi-Tenant SaaS</h4>
+                <p className="text-sm text-gray-400 leading-relaxed">
+                  A sophisticated multi-tenant SaaS platform enabling businesses to create AI-powered customer websites with integrated booking systems, billing, and RAG-powered chat using OpenAI GPT-4o-mini with pgvector embeddings.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Next.js 16", "React 19", "Multi-tenant", "PostgreSQL 17", "OpenAI GPT-4o", "Stripe", "Docker"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
-                <div className="space-y-3">
-                  <h4 className="text-lg font-semibold text-white">RAGbot - AI Chatbot Builder Platform</h4>
-                  <p className="text-sm text-gray-400 leading-relaxed">
-                    A comprehensive SaaS platform that transforms websites into intelligent AI chatbots in minutes. Features multi-LLM AI integration, advanced RAG implementation, real-time widget preview, and team collaboration.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "OpenAI", "AI/ML", "SaaS"].map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-2 py-1 text-xs rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <a
-                    href="https://botra.vercel.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300 transition-colors"
-                  >
-                    Visit Live Site →
-                  </a>
-                </div>
+                <a
+                  href="https://oneupai.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300 transition-colors"
+                >
+                  Visit Live Site →
+                </a>
               </div>
             </div>
           </Card>
